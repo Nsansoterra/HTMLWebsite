@@ -138,6 +138,7 @@ body{
     float:bottom;
     float:left;
     margin:0 auto; 
+    clear:both;
 }
 
 .footer p{
