@@ -141,7 +141,7 @@ body{
     text-align:center;
 }
 
-footer{
+#footer{
     position:absolute;
     bottom:0;
     background-color: black;
@@ -150,7 +150,7 @@ footer{
     margin-top: auto;
 }
 
-footer p{
+#footer p{
     text-align:center;
 }
 
