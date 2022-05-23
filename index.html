@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta name="viewport" content="width=device-width">
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Nicholas Sansoterra's Website</title>
+    </head>
+    <body>
+        <header id="mainHeader">
+            <div class="container">
+                <h1>Nicholas Sansoterra's Website</h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "aboutme.html">AboutMe</a></li>
+                    <li><a href = "project.html">Projects</a></li>
+                    <li><a href = "source.html">SourceCode</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="webPar">
+            <div class="container">
+                <h1>Home Page Information</h1>
+                <p>Hi! I am Nicholas Sansoterra, a computer science engineering student at The Ohio State University. I have created this website to test and show off my skills using HTML and CSS. In the future I would like to use it as a way to show off my computer science related projects. This entire website was created by me using HTML and CSS. No outside programs were used in the making.</p>
+            </div>
+        </div>
+
+        <div class="container">
+        <div id="mainBlock">
+            <h3>What now?</h3>
+            <p>Unfortunately, there isn't anything fun to do on here. If you look at the top of this webpage you will see links to the other portions of my website that you can check out. The AboutMe page contains all information about me, including my skills and education. The project page probably looks empty for now, but in the future I intend to list all of my CSE accomplishments there. The source code page contains links to all of the code used to make this website. Check it out if you like!</p>
+        </div>
+        
+        <div id="sidebar">
+            <p>If you have any questions for me, please fill out the fourm below! Or just click <a href = "mailto:nsansoterra@gmail.com">here!</a> </p>
+        </div>
+        
+        <div class ="clr"></div>
+
+        <form class="my-form" action="process.php" method="POST">
+            <div class="form-group">
+                <label>Name: </label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text" name="email">
+            </div>
+            <div class="form-group">
+                <label>Message: </label>
+                <textarea name="message"></textarea>
+            </div>
+            <input class="button" type="submit" value="Send Form" name="">
+        </form>
+        </div>
+
+        <div class="footer">
+                <p>Thanks for coming!</p>
+        </div>
+        
+    
+    </body>
+</html>
